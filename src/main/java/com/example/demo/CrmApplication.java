@@ -25,7 +25,7 @@ public class CrmApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:51347") // Updated to match your current Angular port
+                        .allowedOrigins("https://crm-ui-q9nj.onrender.com") // Updated to allow your live frontend site
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
