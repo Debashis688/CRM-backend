@@ -14,7 +14,8 @@ import java.util.Map;
 @CrossOrigin(
     origins = {
         "http://localhost:4200",
-        "http://localhost:51347"
+        "http://localhost:51347",
+        "https://crm-ui-q9nj.onrender.com"
     },
     allowedHeaders = "*",
     exposedHeaders = "*",
